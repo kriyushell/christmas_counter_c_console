@@ -58,12 +58,14 @@ So, with the New Year approaching, here’s a program that shows how much time i
 
   
 ### How does it work?
+
 The program’s algorithm is quite simple. First, a struct tm variable is created for New Year’s (January 1, 2025, at 00:00).
 Next, the mktime() function is used to calculate the number of seconds from the 1900s to this New Year’s date as a time_t value.
 In the following step, the program retrieves the number of seconds that have passed since the 1900s up to the current time using the time() function.
 By subtracting the number of seconds elapsed up to the current moment from the seconds elapsed up to New Year’s, the program calculates how many seconds are left until New Year’s (using the difftime() function).
 Then, the program converts this remaining seconds value into days, hours, minutes, and seconds.
 Finally, using a loop, the program recalculates and displays the countdown every second. I’ve written another function to clear and refresh the screen within this loop.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to compile/install and run it?
