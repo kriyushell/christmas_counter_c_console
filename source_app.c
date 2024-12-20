@@ -5,7 +5,7 @@
 
 #include <stdio.h> //printf(), fflush(), stdout
 #include <stdlib.h> //malloc(), sizeof()
-#include <time.h> //struct tm, time_t, mktime(),time()
+#include <time.h> //struct tm, time_t, mktime(), time(), difftime()
 #include <math.h> // log10()
 
 
