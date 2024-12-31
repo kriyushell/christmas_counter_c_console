@@ -41,7 +41,7 @@ void clear_screan(int number_of_char);
 
 int main(){
 	
-	int newyear[] = {2025, 0, 0, 0, 0,0}; 
+	int newyear[] = {2025, 0, 1, 0, 0,0}; 
 
 	
 	struct tm * christmas = create_date(newyear);
